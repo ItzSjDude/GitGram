@@ -50,7 +50,7 @@ def start(_bot, update):
     """/start message for bot"""
     message = update.effective_message
     message.reply_text(
-        f"This is the Updates watcher for {PROJECT_NAME}. I am just notify users about what's happen on their Git repositories thru webhooks.\n\nYou need to [self-host](https://github.com/MadeByThePinsHub/GitGram#readme) or see /help to use this bot on your groups.",
+        f"This is the Updates watcher for {PROJECT_NAME}. I am just notify users about what's happen on their Git repositories thru webhooks.\n\nYou need to [self-host](https://github.com/ItzSjDude/GitGram#readme) or see /help to use this bot on your groups.",
         parse_mode="markdown")
 
 def help(_bot, update):
@@ -65,7 +65,7 @@ def support(_bot, update):
     """Links to Support"""
     message = update.effective_message
     message.reply_text(
-        f"*Getting Support*\n\nTo get support in using the bot, join [the GitGram support]({GITGRAM_SUPPORT}).",
+        f"*Getting Support*\n\nTo get support in using the bot, join [Support Group]({GITGRAM_SUPPORT}).",
         parse_mode="markdown"
     )
 
